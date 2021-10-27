@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edgar's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar-->
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Projects</a></li>
+          <li class="nav__item"><a href="#">Work</a></li>
+          <li class="nav__item"><a href="#">Education</a></li>
+          <li class="nav__item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Introduction -->
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">Edgar Catalan</h1>
+          <p class="hero__tagline">My passion for programming began when I made a tic-tac-toe game in Java. From that moment, I gained a passion to get my education in computer science and I am looking forward to sharing my passion and knowledge with the people around me</p>
+          <a href="https://github.com/edgarjoel18?tab=repositories" target="_blank" class="btn btn--accent btn--stretched">GitHub</a>
+          <a href="https://www.linkedin.com/in/edgarcatalan10/" target="_blank"class="btn btn--accent btn--stretched" style="margin-left: 5px;">LinkedIn</a>
+        </header>
+        <img src="images/thumbnail_IMG_0376.jpg" alt="" class="hero__image"/>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="block container">
+      <header class="block__header">
+        <h2>Projects</h2>
+        <p>These include personal projects and school projects</p>
+      </header>
+    </section>
+    <section class="block container block-plans">
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <div class="card card--primary">
+            <header class="card__header">
+              <span class="plan__price">Zooble</span>
+              <span class="plan__description">Febuary 2021 - May 2021</span>
+            </header>
+            <div class="card__body">
+              <!-- <ul class="list list--tick">
+                <li class="list__item">Unlimited Websites</li>
+                <li class="list__item">Unlimited Bandwidth</li>
+                <li class="list__item">100 GB SSD Sotrage</li>
+                <li class="list__item">3 GB RAM</li>
+              </ul> -->
+              <p style="color:black">A social networking application for pet owners and pet businesses</p>
+              <button class="btn btn--outline btn--block" id="zooble-doc">Documentation</button>
+              <button class="btn btn--outline btn--block" id="zooble-code">Code</button>
+              <button class="btn btn--outline btn--block" id="zooble-app">Live App</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--primary">
+            <header class="card__header">
+              <span class="plan__price">EDB Database</span>
+              <span class="plan__description">June 2021 - July 2021</span>
+            </header>
+            <div class="card__body">
+              <p style="color:black">A relational database for a Hospital designed to fill business rules and requirements</p>
+              <button class="btn btn--outline btn--block" id="edb-doc">Documentation</button>
+              <button class="btn btn--outline btn--block" id="edb-code">Code</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--primary">
+            <header class="card__header">
+              <span class="plan__price">TicketPal</span>
+              <span class="plan__description">June 2021 - July 2021</span>
+            </header>
+            <div class="card__body">
+              <p style="color:black"> A microservices application that allows users to buy and sell concert or sporting event tickets</p>
+              <button class="btn btn--outline btn--block" id="ticket-pal-code">Code</button>
+              <button class="btn btn--outline btn--block" id="ticket-pal-app">Live App(Coming Soon)</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--primary">
+            <header class="card__header">
+              <span class="plan__price">Online Code Editor</span>
+              <span class="plan__description">July 2021 - August2021</span>
+            </header>
+            <div class="card__body">
+              <p style="color:black">A code editor to run javascript code and frameworks</p>
+              <button class="btn btn--outline btn--block" id="code-editor-code">Code</button>
+              <button class="btn btn--outline btn--block" id="code-editor-app">Live App</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Work Exprience -->
+    <section class="block container">
+      <header class="block__header">
+        <h2>Work</h2>
+      </header>
+      <article class="grid grid--1x2 feauture">
+        <div>
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="./icons/easy.svg"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Rroar Coding a Robotics</h3>
+          <h4>February 2021 - current</h4>
+          <p>Currently teaching 7 students per class grades 7 – 12 coding fundamentals in HTML, Javascript, and Python.
+            The topics I teach include web design, functional programming, and object-oriented programming.
+            This position allows me to use my communication skills to explain low-level technical topics into a high level explanation to people from technical and non-technical backgrounds.
+            This position also gives me the opportunity to use my passion and excitement about technology to teach others, which is something I value greatly.
+            Shortly before class completion, students make their own websites and python programs with an emphasis on creating neat and understandable code.</p>
+        </div>
+        <!-- <picture>
+          <source type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
+          <source type="image/jpg" srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x">
+          <img src="images/easy@2x.jpg" alt=""/>
+        </picture> -->
+      </article>
+    </section>
+    <section class="block container">
+      <article class="grid grid--1x2 feauture">
+        <div>
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="./icons/easy.svg"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Microsoft Fellowship</h3>
+          <h4>Decemeber 2018 - March 2019</h4>
+          <p>Collaborated with employees from Code for San Francisco who use creative technology to solve civic and social problems.
+            I researched barriers and problems that kept young people away from learning about tech.
+            This allowed me to design the UX/UI of this project to make the app more attractive to the youth.
+            I sketched UI components and implemented the ideas using HTML, CSS, Express.js, and Postgres.
+            I concluded the project by presenting the demo at Microsoft Reactor.</p>
+          <!-- <a href="" class="link-arrow">Learn More</a> -->
+        </div>
+        <!-- <picture>
+          <source type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
+          <source type="image/jpg" srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x">
+          <img src="images/easy@2x.jpg" alt=""/>
+        </picture> -->
+      </article>
+    </section>
+    <section class="block container">
+      <article class="grid grid--1x2 feauture">
+        <!-- <picture>
+          <source type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
+          <source type="image/jpg" srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x">
+          <img src="images/easy@2x.jpg" alt=""/>
+        </picture> -->
+      </article>
+    </section>
+    <!-- This is education section -->
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">  
+        <h2 class="block__heading">Education</h2>
+      </header>
+      <div class="container grid grid--1x2">
+        <img src="" alt=""/>
+          <p></p>
+          <ul class="list">
+            <li>
+              <div class="media">
+                <div class="media__image">
+                  <svg class="icon icon--primary">
+                    <use xlink:href="images/sprite.svg#snap"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 style="color:white" class="media__title">San Francisco State University</h3>
+                  <h4 style="color:white" class="media__title">August 2019 - May 2022</h4>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="media">
+                <div class="media__image">
+                  <svg class="icon icon--primary">
+                    <use xlink:href="images/sprite.svg#snap"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 style="color:white" class="media__title">Dev/Mission</h3>
+                  <h4 style="color:white" class="media__title">May 2019 - August 2019</h4>
+                </div>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </section>
+    <!-- Footer -->
+    
+    <footer class="block block--dark footer">
+      <header>
+        <h2 class="block__heading" style="text-align:center">Contact</h2>
+      </header>
+      <div class="container grid">
+        <section class="collapsible collapsible--expanded">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading" style="color:white">Email</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            ecatalan67@gmail.com
+          </div>
+        </section>
+        <section class="collapsible collapsible--expanded">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading" style="color:white">Phone Number</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            (650)520-9819
+          </div>
+        </section>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
