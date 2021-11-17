@@ -18,6 +18,8 @@ const ticketPalApp = document.getElementById("ticket-pal-app");
 const onlineEditorCode = document.getElementById("code-editor-code");
 const onlineEditorApp = document.getElementById("code-editor-app");
 
+const feedyApp = document.getElementById("feedy-app");
+
 // Zooble events
 zoobleDoc.addEventListener("click", () => {
   window.open(
@@ -55,4 +57,8 @@ onlineEditorCode.addEventListener("click", () => {
 
 onlineEditorApp.addEventListener("click", () => {
   window.open("https://code-editor-nu.vercel.app/");
+});
+
+feedyApp.addEventListener("click", () => {
+  window.open("https://blooming-sierra-79420.herokuapp.com/");
 });
